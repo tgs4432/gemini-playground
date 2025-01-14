@@ -262,6 +262,9 @@ async function connectToWebsocket() {
                     prebuiltVoiceConfig: { 
                         voiceName: voiceSelect.value    // You can change voice in the config.js file
                     }
+                },
+                languageCode: {
+                    languageCode: "zh-CN" // Ensure Chinese output
                 }
             },
 
